@@ -3,13 +3,18 @@ A macOS app providing Quick Look preview for subtitle files such as `.srt`, `.vt
 
 ## Notes
 - Inspired by [tattali/QLAddict](https://github.com/tattali/QLAddict)
-- Doesn't support preview of `.vtt` or `.ass` files yet
+- Doesn't support preview of `.ass` files yet
+- `STYLE` defined in `.vtt` file is ignored
 - Install & run:
     1. Fisrt time you run this app, please "Allow" it to run on system `"Security & Privacy"` preference panel
     1. Activate "Quick Look Subtitles" or "Preview Subtitles" on system `"Extensions"` preference panel
+## Dependencies
+- [dagronf/SwiftSubtitles](https://github.com/dagronf/SwiftSubtitles), parsing .vtt files
 ## Screenshots
 - Quick Look in Finder app (press Space bar)
 ![Quick Look window](Screenshots/quicklook_popup_window.png)
+- Preview WebVTT file
+![New color theme for WebVTT preview](Screenshots/webvtt_color_theme.png)
 - Fullscreen Quick Look window
 ![Fullscreen Quick Look](Screenshots/quicklook_fullscreen.png)
 - Galary view of Finder app (press ⌘ + 4)
