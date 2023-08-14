@@ -3,8 +3,8 @@ A macOS app providing Quick Look preview for subtitle files such as `.srt`, `.vt
 
 ## Notes
 - Inspired by [tattali/QLAddict](https://github.com/tattali/QLAddict)
-- Doesn't support preview of `.ass` files yet
 - `STYLE` defined in `.vtt` file is ignored
+- `Script Info` in `.ass` file is not displayed. `V4+ Styles` info is disgarded, so do Style Override Codes in subtile text lines
 - Install & run:
     1. Fisrt time you run this app, please "Allow" it to run on system `"Security & Privacy"` preference panel
     1. Activate "Quick Look Subtitles" or "Preview Subtitles" on system `"Extensions"` preference panel

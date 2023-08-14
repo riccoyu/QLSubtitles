@@ -1,5 +1,9 @@
 Changelog
 =========
+### 1.2.0 (4)
+New features:
+- support preview of .ass files
+- use a pink color theme whene previewing Advanced Substation Alpha subtitles
 ### 1.1.0 (3)
 New features:
 - support Quick Look preview of `.vtt` files, using [dagronf/SwiftSubtitles](https://github.com/dagronf/SwiftSubtitles)
